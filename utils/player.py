@@ -44,7 +44,7 @@ class Player:
         self.number_of_cards = len(self.cards)
         
         # Print 
-        print(f"{self.name} turn {self.turn_count} played: {played_card.value} {played_card.icon}")
+        print(f"{self.name} turn {self.turn_count} played: {played_card.value} {played_card.icon} {played_card.color}")
         
         return played_card
     

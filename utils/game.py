@@ -46,7 +46,8 @@ class Board:
          # Loop of the game ( goes on untill all players does not have card anymore)
             while any(player.number_of_cards > 0 for player in self.players):
                 self.turn_count += 1
-                print(f"This is the turn {self.turn_count}, ready for the next one ?")
+                print(f"This is the turn {self.turn_count}, let's look what cards did the player played ?")
+                print()
 
                 # Move current active cards to the history (Not the first turn)
                 if self.active_cards:
@@ -61,9 +62,11 @@ class Board:
                         played_card = player.play()
                         self.active_cards.append(played_card)
                 # Print the turn
-                print(f"Turn {self.turn_count} resume")
+                print(f"=== Turn {self.turn_count} summary : ===")
                 print(f"Active cards: {[str(card) for card in self.active_cards]}")
                 print(f"Total cards in the history: {len(self.history_cards)}")
+                print()
+                print()
         
             # put the final active cards to the history at the end
             if self.active_cards:
