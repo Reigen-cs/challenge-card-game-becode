@@ -86,7 +86,7 @@ python main.py
 ## Sample Output
 
 ```
-Welcome to WeTakeYourMoney Card Game!
+Welcome to Reigen Card Game!
 ========================================
 Starting the card game!
 Players: Player 1, Player 2, Player 3, Player 4
