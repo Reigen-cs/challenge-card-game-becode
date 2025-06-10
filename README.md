@@ -98,10 +98,10 @@ Player 3: 13 cards
 Diana: 13 cards
 
 === TURN 1 ===
-Player 1 turn 1 played: K ♠
-Player 2 turn 1 played: 7 ♥
-Player 3 turn 1 played: A ♦
-Player 4 turn 1 played: Q ♣
+Player 1 turn 1 played: K ♠ black
+Player 2 turn 1 played: 7 ♥ red
+Player 3 turn 1 played: A ♦ red
+Player 4 turn 1 played: Q ♣ black
 Turn 1 summary:
 Active cards: ['K ♠', '7 ♥', 'A ♦', 'Q ♣']
 Total cards in history: 0
