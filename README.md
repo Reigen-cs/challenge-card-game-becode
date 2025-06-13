@@ -58,7 +58,7 @@ challenge-card-game-becode/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/challenge-card-game-becode.git
+git clone https://github.com/Reigen-cs/challenge-card-game-becode.git
 cd challenge-card-game-becode
 ```
 
